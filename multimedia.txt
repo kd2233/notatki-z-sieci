@@ -1,0 +1,34 @@
+Specjalna budowa
+Kabel tego typu zawiera w œrodku cztery pary ¿y³, czyli w sumie osiem pojedynczych przewodów. Dziêki skrêceniu pojedynczych par przewodów mo¿liwe jest uzyskanie wysokiej transmisji przesy³u.
+
+Jak poprawnie zarobiæ wtyki RJ45 ? 
+
+Przygotowanie przewodu
+
+– w pierwszej kolejnoœci sprawdzamy, czy przewód jest równo uciêty, wolny od zabrudzeñ i innych zanieczyszczeñ.
+– oczyszczony przewód nale¿y pozbawiæ izolacji na dystansie ok 2 cm
+– kolejnym krokiem bêdzie rozwiniêcie par przewodów i wyprostowanie ich, aby nie by³y pofalowane.
+– nastêpnie uk³adamy ¿y³y wed³ug kolorów ich izolacji
+
+1.Pomarañczowo – bia³y
+2.Pomarañczowy
+3.Zielono – bia³y
+4.Niebieski
+5.Niebiesko – bia³y
+6.Zielony
+7.Br¹zowo – bia³y
+8.Br¹zowy
+
+Na³o¿enie wtyku
+
+Pouk³adane ¿y³y nale¿y wsun¹æ do odpowiednich przegródek we wtyku RJ-45.
+
+
+Wszystkie ¿y³y powinny dotrzeæ do koñca wtyku, równo, bez wyginania siê czy za³amywania. Je¿eli tak nie jest, nale¿y proces przeprowadziæ ponownie.
+
+Odpowiednio w³o¿one ¿y³y nale¿y zacisn¹æ zaciskark¹ do wtyków.
+Podstawowe narzêdzie do zaciskania mo¿na kupiæ ju¿ za kilkanaœcie z³otych, natomiast dok³adaj¹c nie wiele wiêcej, mo¿na kupiæ zestaw zawieraj¹cy zaciskarkê, nó¿, a nawet tester zaciœniêtych przewodów.
+
+Schemat u³o¿enia przewodów 
+
+Poni¿ej przedstawiamy wideoinstrukcje zarabiania wtyków RJ-45
