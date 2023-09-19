@@ -65,3 +65,7 @@ Podstawowe narzędzie do zaciskania można kupić już za kilkanaście złotych,
 Schemat ułożenia przewodów 
 
 Poniżej przedstawiamy wideoinstrukcje zarabiania wtyków RJ-45
+ </section>
+    </main>
+</body>
+</html>
