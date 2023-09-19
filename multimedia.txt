@@ -1,34 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BHP</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BezpieczeÅ„stwo i Higiena Pracy</h1>
+    </header>
+    <main>
+        <section>
 Specjalna budowa
-Kabel tego typu zawiera w œrodku cztery pary ¿y³, czyli w sumie osiem pojedynczych przewodów. Dziêki skrêceniu pojedynczych par przewodów mo¿liwe jest uzyskanie wysokiej transmisji przesy³u.
+Kabel tego typu zawiera w Å›rodku cztery pary Å¼yÅ‚, czyli w sumie osiem pojedynczych przewodÃ³w. DziÄ™ki skrÄ™ceniu pojedynczych par przewodÃ³w moÅ¼liwe jest uzyskanie wysokiej transmisji przesyÅ‚u.
 
-Jak poprawnie zarobiæ wtyki RJ45 ? 
+Jak poprawnie zarobiÄ‡ wtyki RJ45 ? 
 
 Przygotowanie przewodu
 
-– w pierwszej kolejnoœci sprawdzamy, czy przewód jest równo uciêty, wolny od zabrudzeñ i innych zanieczyszczeñ.
-– oczyszczony przewód nale¿y pozbawiæ izolacji na dystansie ok 2 cm
-– kolejnym krokiem bêdzie rozwiniêcie par przewodów i wyprostowanie ich, aby nie by³y pofalowane.
-– nastêpnie uk³adamy ¿y³y wed³ug kolorów ich izolacji
+â€“ w pierwszej kolejnoÅ›ci sprawdzamy, czy przewÃ³d jest rÃ³wno uciÄ™ty, wolny od zabrudzeÅ„ i innych zanieczyszczeÅ„.
+â€“ oczyszczony przewÃ³d naleÅ¼y pozbawiÄ‡ izolacji na dystansie ok 2 cm
+â€“ kolejnym krokiem bÄ™dzie rozwiniÄ™cie par przewodÃ³w i wyprostowanie ich, aby nie byÅ‚y pofalowane.
+â€“ nastÄ™pnie ukÅ‚adamy Å¼yÅ‚y wedÅ‚ug kolorÃ³w ich izolacji
 
-1.Pomarañczowo – bia³y
-2.Pomarañczowy
-3.Zielono – bia³y
+1.PomaraÅ„czowo â€“ biaÅ‚y
+2.PomaraÅ„czowy
+3.Zielono â€“ biaÅ‚y
 4.Niebieski
-5.Niebiesko – bia³y
+5.Niebiesko â€“ biaÅ‚y
 6.Zielony
-7.Br¹zowo – bia³y
-8.Br¹zowy
+7.BrÄ…zowo â€“ biaÅ‚y
+8.BrÄ…zowy
 
-Na³o¿enie wtyku
+NaÅ‚oÅ¼enie wtyku
 
-Pouk³adane ¿y³y nale¿y wsun¹æ do odpowiednich przegródek we wtyku RJ-45.
+PoukÅ‚adane Å¼yÅ‚y naleÅ¼y wsunÄ…Ä‡ do odpowiednich przegrÃ³dek we wtyku RJ-45.
 
 
-Wszystkie ¿y³y powinny dotrzeæ do koñca wtyku, równo, bez wyginania siê czy za³amywania. Je¿eli tak nie jest, nale¿y proces przeprowadziæ ponownie.
+Wszystkie Å¼yÅ‚y powinny dotrzeÄ‡ do koÅ„ca wtyku, rÃ³wno, bez wyginania siÄ™ czy zaÅ‚amywania. JeÅ¼eli tak nie jest, naleÅ¼y proces przeprowadziÄ‡ ponownie.
 
-Odpowiednio w³o¿one ¿y³y nale¿y zacisn¹æ zaciskark¹ do wtyków.
-Podstawowe narzêdzie do zaciskania mo¿na kupiæ ju¿ za kilkanaœcie z³otych, natomiast dok³adaj¹c nie wiele wiêcej, mo¿na kupiæ zestaw zawieraj¹cy zaciskarkê, nó¿, a nawet tester zaciœniêtych przewodów.
+Odpowiednio wÅ‚oÅ¼one Å¼yÅ‚y naleÅ¼y zacisnÄ…Ä‡ zaciskarkÄ… do wtykÃ³w.
+Podstawowe narzÄ™dzie do zaciskania moÅ¼na kupiÄ‡ juÅ¼ za kilkanaÅ›cie zÅ‚otych, natomiast dokÅ‚adajÄ…c nie wiele wiÄ™cej, moÅ¼na kupiÄ‡ zestaw zawierajÄ…cy zaciskarkÄ™, nÃ³Å¼, a nawet tester zaciÅ›niÄ™tych przewodÃ³w.
 
-Schemat u³o¿enia przewodów 
+Schemat uÅ‚oÅ¼enia przewodÃ³w 
 
-Poni¿ej przedstawiamy wideoinstrukcje zarabiania wtyków RJ-45
+PoniÅ¼ej przedstawiamy wideoinstrukcje zarabiania wtykÃ³w RJ-45
