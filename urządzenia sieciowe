@@ -31,3 +31,26 @@
     </header>
     <main>
         <section>
+W dzisiejszych czasach komunikacja i dostęp do Internetu stały się nieodzowną częścią naszego życia. W tle tego technologicznego osiągnięcia kryją się zaawansowane urządzenia sieciowe, które umożliwiają nam łączenie się z siecią oraz wymianę danych. W tej rozprawce omówimy kilka kluczowych urządzeń sieciowych: router, przełącznik, most, hub i kartę sieciową, przyglądając się ich funkcjom, zastosowaniom i znaczeniu w dzisiejszym świecie cyfrowym.
+
+Router:
+
+Router to niezwykle istotne urządzenie w świecie sieci komputerowych. Jest on odpowiedzialny za przekazywanie danych między różnymi sieciami lub segmentami sieci. Główne zadania routera to zarządzanie ruchem sieciowym, określanie optymalnej trasy dla pakietów danych oraz zapewnienie bezpieczeństwa sieci poprzez filtrowanie ruchu i konfigurację zabezpieczeń. Router jest kluczowym elementem każdej sieci domowej lub firmowej, umożliwiając dostęp do Internetu oraz łączenie się z urządzeniami w sieci lokalnej.
+
+Przełącznik (Switch):
+
+Przełącznik jest urządzeniem służącym do przesyłania pakietów danych w sieci lokalnej (LAN). Jest bardziej zaawansowany niż hub, ponieważ podejmuje decyzje na poziomie warstwy drugiej modelu OSI. Przełącznik analizuje adresy MAC urządzeń podłączonych do niego i przekazuje dane tylko do odpowiednich urządzeń, co eliminuje niepotrzebny ruch sieciowy. Dzięki temu sieci stają się bardziej wydajne, a transmisja danych jest szybsza.
+
+Most (Bridge):
+
+Most to urządzenie służące do łączenia dwóch lub więcej segmentów sieci, działając na poziomie warstwy drugiej modelu OSI. Jego główne zadanie to izolowanie ruchu na różnych segmentach sieci, co pozwala na uniknięcie kolizji i zwiększenie bezpieczeństwa. Mosty są często wykorzystywane w sieciach Ethernet, zwłaszcza w tych, gdzie konieczne jest oddzielenie segmentów w celu zwiększenia wydajności i zapewnienia redundancji.
+
+Hub:
+
+Hub jest najprostszym urządzeniem wśród omawianych, działającym na poziomie fizycznym modelu OSI. Hub przekazuje dane odbierane na jednym porcie na wszystkie inne porty, co może prowadzić do nadmiernego ruchu i kolizji na sieci. Ze względu na swoją niską wydajność i brak możliwości izolowania ruchu, huby są obecnie rzadko używane i są zastępowane przez przełączniki.
+
+Karta Sieciowa:
+
+Karta sieciowa to sprzętowa lub wbudowana w komputer lub inny urządzenie interfejsowa do komunikacji z siecią. Karty sieciowe pozwalają urządzeniom na udział w sieciach poprzez przyjmowanie i przesyłanie danych. Są one niezbędne do nawiązywania połączenia z routerem, przełącznikiem lub mostem, a także do dostępu do Internetu. Karty sieciowe są dostępne w różnych wariantach, w tym przewodowych i bezprzewodowych, co pozwala na elastyczne dostosowanie urządzeń do potrzeb użytkowników.
+
+Podsumowując, urządzenia sieciowe, takie jak router, przełącznik, most, hub i karta sieciowa, odgrywają kluczową rolę w dzisiejszym świecie cyfrowym. Dzięki nim możemy łączyć się z Internetem, budować sieci lokalne i wymieniać dane z innymi użytkownikami. Wybór odpowiednich urządzeń sieciowych oraz ich właściwa konfiguracja są kluczowe dla zapewnienia wydajności, bezpieczeństwa i niezawodności naszych sieci komputerowych.
