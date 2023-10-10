@@ -1,1 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rj 45 i utp kat 5</title>
+</head>
+<body>
+    <header>
+        <h1>Robienie kabla rj 45 zaczynamy od obcięcia 3cm szarej powłoki, następnie rozkręcamy skręcone kable, przycinamy lekko kable tak aby kable były ruwnej długości i była widoczna miedz na końcu. Następnie wkładamy odpowiedni kabel do odpowiedniego portu i tak by szara powłoko była ściśnięta. Bierzemy zaciskarke i zaciskamy druty na spodzie zaisku i robimy test testerem czy nasz kabel działa prawidłowo. Jeśli chodzi o utp kat 5 przycinamy 5 cm szarej powłoki, rozplątujemy kable i umieszczamy w odpowiednim porcie z standardem B   </h1>
+    </header>
 
+    <footer>
+        <p>&copy; rj45 i kabel utp kat 5</p>
+    </footer>
+</body>
+</html>
