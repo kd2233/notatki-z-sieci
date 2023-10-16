@@ -1,1 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sieci VLAN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sieci VLAN</h1>
+    </header>
+    <main>
+        <section>
+          Sieć VLAN (Virtual Local Area Network) to logiczne podziały na fizycznym przełączniku, które pozwalają na izolację ruchu między różnymi segmentami sieci, pomimo że wszystkie urządzenia fizycznie podłączone do tego samego przełącznika. Oto opis budowy i procesu konfigurowania sieci VLAN na przełączniku:
 
+Budowa sieci VLAN:
+
+Przełącznik warstwy 2 lub warstwy 3: Sieci VLAN można tworzyć na przełącznikach warstwy 2, ale bardziej zaawansowane funkcje wymagają przełączników warstwy 3.
+
+Urządzenia końcowe: Podłącz urządzenia końcowe (np. komputery, drukarki) do odpowiednich portów na przełączniku.
+
+Porty VLAN: Na przełączniku określa się, które porty należą do danej sieci VLAN. Każdy port może być przypisany do jednej lub więcej sieci VLAN.
+
+Proces konfiguracji sieci VLAN:
+
+Zalogowanie do przełącznika: Otwórz interfejs zarządzania przełącznikiem, zazwyczaj poprzez przeglądarkę internetową lub konsolę konsolową.
+
+Tworzenie VLAN: Na przełączniku należy utworzyć VLANy. To jest pierwszy krok w tworzeniu sieci VLAN. Możesz nadać każdemu VLAN nazwę i numer identyfikacyjny.
+
+Przypisanie portów do VLAN: Teraz przypisujesz konkretne porty na przełączniku do odpowiednich VLAN. To oznacza, że konkretne urządzenia podłączone do tych portów będą należały do danej sieci VLAN.
+
+Konfiguracja trunków (opcjonalne): Jeśli masz więcej niż jeden przełącznik lub potrzebujesz połączyć przełączniki w jedną sieć VLAN, będziesz musiał skonfigurować porty trunk. Trunki umożliwiają przesyłanie ruchu między przełącznikami.
+
+Konfiguracja interfejsu VLAN: Na przełącznikach warstwy 3, należy przypisać adresy IP do każdego interfejsu VLAN. To pozwala na komunikację między różnymi sieciami VLAN.
+
+Bezpieczeństwo VLAN: Możesz również zastosować zabezpieczenia, takie jak listy kontrolne dostępu (ACL), aby kontrolować ruch między różnymi sieciami VLAN.
+
+Testowanie i monitorowanie: Po zakończeniu konfiguracji sieci VLAN, ważne jest, aby przetestować jej działanie i monitorować ruch, aby upewnić się, że wszystko działa zgodnie z oczekiwaniami.
+        </section>
+      
