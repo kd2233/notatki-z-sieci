@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Topologia Sieci LAN</title>
+</head>
+<body>
+
+  <header>
+    <h1>Topologia Sieci LAN</h1>
+  </header>
+
+  <section>
+    <h2>Czym jest topologia sieci?</h2>
+    <p>Topologia sieci odnosi się do układu połączeń między urządzeniami w sieci komputerowej. To struktura, która określa, w jaki sposób dane są przesyłane pomiędzy różnymi komponentami sieci.</p>
+  </section>
+
+  <section>
+    <h2>Rodzaje topologii</h2>
+    <ul>
+      <li><strong>Gwiazda:</strong> Centralny punkt, do którego są podłączone wszystkie urządzenia.</li>
+      <img src="https://sieci.infopl.info/images/gwiazda.png"width="15%"height="15%">
+
+       <li><strong>Gwiazda rozszerzona:</strong> Oparta jest na topologii gwiazdy.</li>
+      <img src="https://networkszsp.files.wordpress.com/2013/04/rozszerzonagwiazda.jpeg"width="15%"height="15%">
+      <li><strong>Pierścień:</strong> Urządzenia połączone w zamknięty obwód.</li>
+      <img src="https://www.soisk-me.pl/images/grafiki/ring.png"width="15%"height="15%">
+
+      <li><strong>Magistrala:</strong> Urządzenia połączone jednym wspólnym przewodem.</li>
+      <img src="https://sieci.infopl.info/images/magistrala.png"width="15%"height="15%">
+
+      <li><strong>Siatka:</strong> Każde urządzenie połączone z każdym innym.</li>
+      <img src="https://sektorek.files.wordpress.com/2015/03/awww.jpeg"width="15%"height="15%">
+
+      <li><strong>Drzewo:</strong> Struktura hierarchiczna, podobna do korzenia drzewa.</li>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Hierarchiczna.jpeg"width="15%"height="15%">
+
+    </ul>
+  </section>
+
+  <section>
+    <h2>Zastosowanie topologii sieciowej</h2>
+    <p>Wybór odpowiedniej topologii zależy od potrzeb konkretnego środowiska. Na przykład, topologia gwiazdy jest popularna w małych biurach, podczas gdy topologia siatki może być stosowana w dużych sieciach, zapewniając redundancję i skalowalność.</p>
+  </section>
+
+  <footer>
+    <p>Topologia Sieci - Autor: konrad Domaradzki kl.2Tif</p>
+  </footer>
+</body>
+</html>
