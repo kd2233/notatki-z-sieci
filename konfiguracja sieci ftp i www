@@ -1,0 +1,33 @@
+Knfiguracja severa www i ftp krok po kroku.
+Server WWW:
+Instalacja usługi IIS:
+1. Wejdź do "Server Manager" (Menadżera Serwera).
+2. Kliknij "Add Roles and Features" (Dodaj role i funkcje).
+3. Wybierz "Role-based or feature-based installation" (Instalacja oparta na roli lub funkcji).
+4. Zaznacz serwer, na którym chcesz zainstalować IIS.
+5. Wybierz "Web Server (IIS)" jako rolę.
+6. Kliknij "Next" (Dalej) i dokończ instalację, klikając "Install" (Zainstaluj).
+Konfiguracja serwera WWW:
+1. Po zainstalowaniu IIS, otwórz "Internet Information Services (IIS) Manager" (Menadżer Usług Informacyjnych Internetu).
+2. Znajdź swoją witrynę (lub stwórz nową) w lewym panelu.
+3. Konfiguruj ustawienia, takie jak "Default Document" (Dokument domyślny), autoryzacja, itp.
+Server FTP:
+Instalacja usługi FTP:
+1. Wejdź ponownie do "Server Manager".
+2. Kliknij "Add Roles and Features".
+3. Wybierz "Role-based or feature-based installation".
+4. Zaznacz serwer.
+5. Wybierz "FTP Server" jako rolę.
+6. Kliknij "Next" i dokończ instalację, klikając "Install".
+Konfiguracja serwera FTP:
+1. Otwórz "Internet Information Services (IIS) Manager".
+2. Wybierz serwer FTP w lewym panelu.
+3. Włącz "FTP Firewall Support" (Wsparcie firewalla FTP) oraz "FTP Server" (Serwer FTP) w oknie "FTP Server Settings" (Ustawienia serwera FTP).
+4. Skonfiguruj ustawienia dostępu, autoryzacji, a także ścieżki do katalogów dla użytkowników FTP.
+Przydatne informacje:
+Firewall: Upewnij się, że odpowiednie porty są otwarte w systemowym firewallu dla usług WWW (zazwyczaj port 80 dla HTTP) i FTP (zazwyczaj porty 20 i 21).
+Bezpieczeństwo: Zastosuj zabezpieczenia, takie jak SSL dla serwera WWW.
+Coto jest server FTP:
+Serwer FTP umożliwia przesyłanie plików między komputerami poprzez protokół File Transfer Protocol. Jest to często używane rozwiązanie do udostępniania plików i katalogów na serwerze.
+Co to jest server WWW:
+Serwer WWW umożliwia dostęp do treści internetowej poprzez protokół HTTP (Hypertext Transfer Protocol). Jest to serwer, który hostuje strony internetowe i udostępnia je użytkownikom przez przeglądarki internetowe.
