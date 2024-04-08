@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>światłowody</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Swiatłowody,media i konektory</h1>
+    </header>
+    <main>
+        <section>
+            KABEL ŚWIATŁOWODOWY
+Zupełnie innym od omówionych wcześniej mediów transmisyjnych jest kabel światłowodowy, innym ze względu na materiał wykorzystywany do budowy rdzenia. W przypadku kabla koncentrycznego i skrętki rdzeń czy też żyły są miedziane, natomiast w przypadku kabli światłowodowych mamy do czynienia z włóknem szklanym. Wykorzystanie włókna szklanego jako budulca rdzenia wymusza również zastosowanie innego rodzaju sygnału przesyłowego. W przypadku mediów miedzianych był to prąd elektryczny, a w przypadku światłowodów jest to promień świetlny, a najczęściej wykorzystywany rodzaj to światło podczerwone.
+
+Światło
+1. Budowa:
+
+rdzeń – o wyższym współczynniku załamania światła,
+płaszcz – o niższym współczynniku załamania światła,
+powłoka lakierowana chroniąca płaszcz,
+powłoka wzmacniająca chroniąca rdzeń podczas instalacji,
+płaszcz zewnętrzny.
+Budowa światłowodu
+Kabel taki zakończony może być wieloma typami złącz. Najpopularniejsze z nich to:
+
+Złącza światłowodowe
+Możemy jeszcze spotkać złącza typu:
+
+LC
+MT – RJ
+MU
+DIN
+2. Rodzaje światłowodów:
+
+Podobnie jak w przypadku kabli miedzianych również w przypadku światłowodów mówić możemy o różnych rodzajach tego medium. Najczęściej spotykanym podziałem jest podział na kabel światłowodowy jednomodowy oraz wielomodowy.
+
+W przypadku światłowodu jednomodowego przez szklany rdzeń przysłana jest tylko jedna wiązka światła, dzięki temu ograniczone zostało zjawisko tzw. rozmycia sygnału, czyli jego osłabienia.
+
+Jedna wiązka
+Wykorzystanie takiego rodzaju światłowodu pozwala na transmisje sygnału na bardzo duże odległości bez konieczności stosowania urządzeń wzmacniający sygnał.
+
+W światłowodzie wielomodowym przez rdzeń przesyłanych jest więcej wiązek światła, czego konsekwencją jest znacznie większy w porównaniu do światłowodu jednomodowego stopień rozmycia sygnału. Wynika to z faktu, ze każda wiązka światła przysłana przez rdzeń musi pokonać inna drogę od nadawcy do odbiorcy.
+
+Wiele wiązek
+W związku z tym światłowody wielomodowe stosuje się na niewielkich odległościach, maksymalnie do kilku kilometrów.
+
+Kolejną różnicą pomiędzy światłowodem jedno i wielomodowym jest zastosowana średnica rdzenia. W przypadku jednomodowego światłowodu wynosi ona między 8 a 10 mikrometrów [μm], natomiast w przypadku światłowodu wielomodowego 50 lub 62,5 mikrometra.
+        </section>
+    </main>
+</body>
+</html>
