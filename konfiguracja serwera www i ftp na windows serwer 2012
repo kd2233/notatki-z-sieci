@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfiguracja Serwera WWW i FTP na Windows Server 2012</title>
+</head>
+<body>
+    <h1>Konfiguracja Serwera WWW i FTP na Windows Server 2012</h1>
+    <p>Aby skonfigurować serwer WWW i FTP na Windows Server 2012, należy wykonać kilka kluczowych kroków:</p>
+    
+    <h2>1. Instalacja Usług IIS</h2>
+    <ul>
+        <li>Otwórz „Menedżera serwera” i dodaj rolę „Usługi informacji internetowych” (IIS).</li>
+        <li>Wybierz dodatkowe funkcje, takie jak ASP.NET czy FTP Server, jeśli są potrzebne.</li>
+    </ul>
+    
+    <h2>2. Tworzenie Witryny WWW</h2>
+    <ul>
+        <li>W IIS Managerze dodaj nową witrynę, definiując jej nazwę, lokalizację plików oraz port (domyślnie 80).</li>
+        <li>Upewnij się, że witryna jest uruchomiona i dostępna.</li>
+    </ul>
+    
+    <h2>3. Konfiguracja Serwera FTP</h2>
+    <ul>
+        <li>Dodaj rolę FTP poprzez Menedżera serwera.</li>
+        <li>Utwórz nowy punkt końcowy FTP, definiując nazwę, lokalizację oraz ustawienia autoryzacji (użytkownicy i uprawnienia).</li>
+    </ul>
+    
+    <h2>4. Zapora Sieciowa</h2>
+    <p>Upewnij się, że porty (80 dla HTTP, 21 dla FTP) są otwarte w zaporze, aby umożliwić dostęp z zewnątrz.</p>
+    
+    <h2>5. Testowanie</h2>
+    <p>Sprawdź dostępność witryny WWW w przeglądarce oraz połączenie FTP przy użyciu klienta FTP.</p>
+
+    <p>Konfiguracja serwera WWW i FTP na Windows Server 2012 jest stosunkowo prosta, a poprawna konfiguracja zapewnia stabilne i bezpieczne usługi.</p>
+</body>
+</html>
