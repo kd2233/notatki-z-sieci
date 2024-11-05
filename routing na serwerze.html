@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+Notatka na temat routingu na serwerze Windows Server 2012</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+Notatka na temat routingu na serwerze Windows Server 2012</h1>
+    </header>
+    <main>
+        <section>
+<p>Routing na serwerze Windows Server 2012 pozwala na przekazywanie pakietów między różnymi podsieciami lub sieciami, a także umożliwia komputerom w jednej podsieci komunikację z urządzeniami w innych podsieciach. Funkcja routingu w systemie Windows Server 2012 opiera się na usłudze Routing and Remote Access Service (RRAS).</p>
+
+<p>1. Wymagania wstępne</p>
+<p>Aby skonfigurować routing na Windows Server 2012, należy:</p>
+
+<p>Zainstalować rolę Routing and Remote Access (RRAS) w systemie.</p>
+<p>Upewnić się, że serwer posiada co najmniej dwie karty sieciowe (jedną do sieci lokalnej, drugą do połączenia z Internetem lub inną siecią).</p>
+<p>2. Instalacja roli RRAS</p>
+<p>Aby zainstalować rolę RRAS:</p>
+
+<p>Otwórz Menedżer serwera (Server Manager).</p>
+<p>Wybierz Dodaj rolę lub funkcję (Add Roles and Features).</p>
+<p>W sekcji Wybór roli (Role-based or feature-based installation) wybierz Routing and Remote Access Services.</p>
+<p>Przejdź przez kolejne kroki instalacji i zakończ proces.</p>
+<p>3. Konfiguracja routingu</p>
+<p>Po zainstalowaniu roli RRAS, konfiguracja routingu przebiega w kilku etapach:</p>
+
+<p>Uruchomienie usługi RRAS:</p>
+<p>Przejdź do Menedżera RRAS.</p>
+<p>Kliknij prawym przyciskiem myszy na serwerze, a następnie wybierz Konfiguruj i włącz Routing and Remote Access.</p>
+<p>W kreatorze konfiguracji wybierz opcję Ruter (Router) oraz inne odpowiednie opcje, takie jak routing statyczny lub dynamiczny.</p>
+<p>Konfiguracja tras statycznych:</p>
+<p>Przejdź do zakładki Routowanie w Menedżerze RRAS.</p>
+<p>Wybierz Trasy statyczne (Static Routes) i dodaj nowe trasy do innych podsieci, określając odpowiednią bramę (gateway).</p>
+<p>Włączanie i konfiguracja NAT (Network Address Translation): Jeśli serwer Windows ma pełnić rolę bramy między siecią wewnętrzną a Internetem, konieczne jest skonfigurowanie NAT:</p>
+<p>W Menedżerze RRAS, wybierz NAT i przypisz odpowiednią kartę sieciową (zewnętrzną) do funkcji NAT.</p>
+<p>Wprowadź odpowiednie reguły przekierowania portów, jeśli wymagane.</p>
+<p>4. Routowanie dynamiczne</p>
+<p>Windows Server 2012 obsługuje kilka protokołów routingu dynamicznego, takich jak RIP (Routing Information Protocol). Można je skonfigurować w zakładce Protokóły routingu w Menedżerze RRAS. Routing dynamiczny pozwala na automatyczne wymienianie informacji o trasach między routerami i może ułatwić konfigurację w rozbudowanych sieciach.</p>
+
+<p>5. Monitorowanie i diagnostyka</p>
+<p>Po skonfigurowaniu routingu warto monitorować działanie usługi RRAS:</p>
+
+<p>Sprawdzanie dzienników zdarzeń w Podglądzie zdarzeń (Event Viewer).</p>
+<p>Używanie narzędzi takich jak ping i tracert do testowania połączeń między urządzeniami w różnych podsieciach.</p>
+<p>Sprawdzanie statusu tras w Menedżerze RRAS.</p>
+<p>6. Zarządzanie i rozwiązywanie problemów</p>
+<p>Upewnij się, że odpowiednie porty i protokoły są dozwolone na zaporze systemu Windows (firewall).</p>
+<p>Regularnie sprawdzaj, czy trasy statyczne i reguły NAT są prawidłowo skonfigurowane.</p>
+<p>Monitoruj obciążenie serwera, aby upewnić się, że nie występują problemy z wydajnością.</p>
+        </section>
+    </main>
+</body>
+</html>
