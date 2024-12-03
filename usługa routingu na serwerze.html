@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usługa Routingu w Serwerze</title>
+</head>
+<body>
+  <h1>Usługa Routingu w Serwerze</h1>
+  <p><strong>Usługa routingu w serwerze</strong> to mechanizm wykorzystywany w aplikacjach webowych, który pozwala na mapowanie przychodzących żądań HTTP na odpowiednie funkcje lub zasoby w aplikacji. Routing dynamiczny jest podstawą wielu nowoczesnych aplikacji, ponieważ umożliwia tworzenie bardziej interaktywnych i elastycznych aplikacji webowych, które dostosowują odpowiedzi w zależności od różnych parametrów, jak np. dane przesyłane przez użytkownika.</p>
+  
+  <h2>Przykłady usług routingu:</h2>
+  <ul>
+    <li><strong>Frameworki MVC</strong>: w takich frameworkach jak Express.js (Node.js) lub Django (Python), routing jest wbudowaną usługą, która mapuje URL do określonych funkcji kontrolera.</li>
+    <li><strong>Routing w aplikacjach SPA</strong>: aplikacje jednostronicowe (SPA) używają routingu do dynamicznej zmiany treści bez przeładowania strony, np. React Router w aplikacjach React.</li>
+  </ul>
+
+  <h2>Przykład routingu w Express.js (Node.js):</h2>
+  <pre><code>
+const express = require('express');
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Witaj na stronie głównej!');
+});
+
+app.get('/about', (req, res) => {
+  res.send('To jest strona o nas!');
+});
+
+app.listen(3000, () => {
+  console.log('Serwer działa na porcie 3000');
+});
+  </code></pre>
+  <p>W tym przykładzie, routing w Express.js mapuje różne adresy URL (/ i /about) na odpowiednie funkcje zwracające odpowiedzi HTTP.</p>
+</body>
+</html>
