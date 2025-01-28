@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>active directory teoria i praktyka</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>active directory teoria i praktyka</h1>
+    </header>
+    <main>
+        <section>
+<p>**Rozprawka na temat Active Directory: teoria i praktyka w Windows Server 2016**</p>
+
+<p>**Wstęp**</p>
+
+<p>Active Directory (AD) jest jednym z najważniejszych komponentów w środowisku systemów operacyjnych Microsoft Windows, szczególnie w wersjach serwerowych takich jak Windows Server 2016. Jest to usługa katalogowa, która pozwala na centralne zarządzanie zasobami sieciowymi, takimi jak użytkownicy, komputery, grupy, aplikacje i inne urządzenia. Active Directory stanowi fundament w administracji IT, zapewniając bezpieczeństwo, organizację i łatwość zarządzania w dużych i małych organizacjach. Celem tej rozprawki jest przedstawienie zarówno teoretycznych podstaw działania Active Directory, jak i praktycznych aspektów jego wdrożenia i zarządzania w systemie Windows Server 2016.</p>
+
+<p>**Teoretyczne podstawy Active Directory**</p>
+
+<p>Active Directory to usługa katalogowa oparta na protokole LDAP (Lightweight Directory Access Protocol), która umożliwia przechowywanie informacji o zasobach sieciowych w postaci hierarchicznych obiektów. Obiekty te mogą być użytkownikami, komputerami, grupami, drukarkami i innymi elementami, które można przypisać do odpowiednich jednostek organizacyjnych (OU – Organizational Units) w strukturze drzewa AD. System ten jest niezwykle skalowalny, co pozwala na jego wykorzystanie w małych firmach, jak i w dużych korporacjach.</p>
+
+<p>Podstawowym elementem Active Directory jest domena (Domain), która stanowi jednostkę organizacyjną, gdzie gromadzone są wszystkie obiekty. Domena jest powiązana z kontrolerem domeny, który zarządza dostępem i autoryzacją użytkowników w sieci. Wszystkie zmiany w Active Directory są replikowane pomiędzy kontrolerami domeny, co zapewnia ciągłość działania i redundancję w przypadku awarii jednego z nich.</p>
+
+<p>**Elementy i struktura Active Directory**</p>
+
+<p>1. **Kontroler domeny** (Domain Controller) – serwer, który przechowuje bazę danych Active Directory, zapewniając dostęp do informacji o użytkownikach i innych obiektach w domenie. Każdy kontroler domeny przechowuje kopię bazy danych katalogu, co umożliwia replikację i synchronizację danych pomiędzy serwerami.</p>
+
+<p>2. **Domena** (Domain) – logiczna jednostka organizacyjna, w której przechowywane są obiekty, takie jak użytkownicy, komputery czy grupy. Wszystkie kontrolery domeny w obrębie jednej domeny współdzielą tę samą bazę danych katalogu.</p>
+
+<p>3. **Jednostki organizacyjne (OU)** – służą do organizowania obiektów w obrębie domeny w sposób hierarchiczny. Umożliwiają one łatwiejsze zarządzanie użytkownikami, komputerami i innymi zasobami, stosując zasady grupowe i przypisując odpowiednie uprawnienia.</p>
+
+<p>4. **Globalne grupy i grupy lokalne** – Active Directory umożliwia tworzenie grup użytkowników i przypisywanie im odpowiednich uprawnień do zasobów. Grupy mogą być globalne (gdzie członkami są użytkownicy z tej samej domeny) lub lokalne (gdzie przypisane są uprawnienia do zasobów w określonej domenie).</p>
+
+<p>**Praktyczne aspekty wdrożenia Active Directory w Windows Server 2016**</p>
+
+<p>Wdrażanie Active Directory w środowisku Windows Server 2016 rozpoczyna się od instalacji roli „Active Directory Domain Services” (AD DS), a następnie promowania serwera do roli kontrolera domeny. Proces ten obejmuje kilka istotnych etapów:</p>
+
+<p>1. **Instalacja roli AD DS** – pierwszym krokiem jest zainstalowanie roli w systemie Windows Server 2016, co można zrobić za pomocą narzędzia Server Manager lub PowerShell.</p>
+</p>
+<p>2. **Promowanie serwera do kontrolera domeny** – po zainstalowaniu roli, serwer musi zostać skonfigurowany jako kontroler domeny. W tym celu tworzymy nową domenę lub dołączamy serwer do istniejącej.</p>
+
+<p>3. **Konfiguracja replikacji i replikacja AD** – po skonfigurowaniu kontrolera domeny, należy zadbać o poprawną replikację danych katalogowych między kontrolerami. Windows Server 2016 wprowadza szereg ulepszeń w tym zakresie, umożliwiając bardziej elastyczną konfigurację.</p>
+
+<p>4. **Zarządzanie użytkownikami i grupami** – administracja AD w Windows Server 2016 opiera się na narzędziu „Active Directory Users and Computers”, gdzie można tworzyć i zarządzać użytkownikami, grupami, jednostkami organizacyjnymi, a także przypisywać odpowiednie uprawnienia i polityki.</p>
+
+<p>5. **Polityki grupowe (Group Policy)** – kolejnym kluczowym elementem w zarządzaniu Active Directory są polityki grupowe, które pozwalają na centralne zarządzanie ustawieniami i konfiguracjami komputerów i użytkowników w całej domenie. Dzięki GPO (Group Policy Objects) administratorzy mogą automatycznie stosować zasady dotyczące zabezpieczeń, konfiguracji aplikacji, ustawień systemowych itp.</p>
+
+<p>**Korzyści i wyzwania związane z Active Directory w Windows Server 2016**</p>
+
+<p>Korzyści płynące z używania Active Directory w organizacji są nieocenione. Dzięki centralnemu zarządzaniu użytkownikami i zasobami, administracja staje się prostsza i bardziej efektywna. Możliwość tworzenia polityk grupowych, implementacji zasad bezpieczeństwa oraz łatwa integracja z innymi usługami Microsoftu (takimi jak Exchange Server czy SharePoint) sprawiają, że AD jest niezwykle popularnym rozwiązaniem w świecie IT.</p>
+
+<p>Jednakże, wdrożenie i zarządzanie Active Directory może wiązać się z pewnymi wyzwaniami. Należy do nich m.in. odpowiednia konfiguracja replikacji, zarządzanie dużymi bazami danych katalogowymi czy też kontrola uprawnień i polityk grupowych w dużych organizacjach. Ponadto, kwestie związane z bezpieczeństwem, takie jak zapobieganie atakom na kontrolery domeny, są szczególnie istotne i wymagają wdrożenia odpowiednich środków ochrony.</p>
+
+<p>**Zakończenie**</p>
+
+<p>Active Directory w systemie Windows Server 2016 jest niezwykle potężnym narzędziem do zarządzania siecią i zasobami IT w organizacjach każdej wielkości. Jego struktura oparta na domenach, kontrolerach domeny, jednostkach organizacyjnych i politykach grupowych umożliwia skuteczne zarządzanie użytkownikami, komputerami oraz innymi zasobami w sposób bezpieczny i skalowalny. Chociaż wdrożenie i zarządzanie AD wiąże się z pewnymi wyzwaniami, korzyści płynące z centralizacji zarządzania, zapewnienia bezpieczeństwa i łatwości administracji sprawiają, że jest to fundament nowoczesnych środowisk IT.</p>
+<p><img src="https://www.google.com/imgres?q=active%20directory%20windows%20server%202016&imgurl=https%3A%2F%2Fwww.server-world.info%2Fen%2FWindows_Server_2016%2Factive_directory%2Fimg%2F25.png&imgrefurl=https%3A%2F%2Fwww.server-world.info%2Fen%2Fnote%3Fos%3DWindows_Server_2016%26p%3Dactive_directory%26f%3D3&docid=s1JhEAAevAZvWM&tbnid=OcsM_32nJVtsyM&vet=12ahUKEwilvJzw0ZiLAxWpERAIHYlGFWYQM3oECGsQAA..i&w=800&h=600&hcb=2&ved=2ahUKEwilvJzw0ZiLAxWpERAIHYlGFWYQM3oECGsQAA"width="50%"height="50%"></p>
+<p><img src="https://www.google.com/imgres?q=active%20directory%20windows%20server%202016&imgurl=https%3A%2F%2Fwww.c-sharpcorner.com%2FUploadFile%2FBlogImages%2F04052017015654AM%2Fimage008.jpg&imgrefurl=https%3A%2F%2Fwww.c-sharpcorner.com%2Fblogs%2Factive-directory-domain-services-in-windows-server-2016&docid=FfajvalQNsoo0M&tbnid=v1UsZ9IjSrAKoM&vet=12ahUKEwilvJzw0ZiLAxWpERAIHYlGFWYQM3oECEkQAA..i&w=720&h=405&hcb=2&ved=2ahUKEwilvJzw0ZiLAxWpERAIHYlGFWYQM3oECEkQAA"width="50%"height="50%"></p>
+        </section>
+    </main>
+</body>
+</html>
