@@ -12,25 +12,59 @@
 
     <section>
         <h2>Co to jest IPv6?</h2>
-        <p>IPv6 (Internet Protocol version 6) to najnowsza wersja protokołu internetowego, który umożliwia adresowanie urządzeń w internecie. Został zaprojektowany w celu rozwiązania problemu ograniczonej liczby dostępnych adresów IP w wersji IPv4.</p>
+        <p>IPv6 (Internet Protocol version 6) to najnowsza wersja protokołu internetowego, który umożliwia adresowanie urządzeń w internecie. Został zaprojektowany w celu rozwiązania problemu ograniczonej liczby dostępnych adresów IP w wersji IPv4. IPv6 zapewnia większą przestrzeń adresową, co jest niezbędne w obliczu rosnącej liczby urządzeń podłączonych do internetu.</p>
     </section>
 
     <section>
         <h2>Dlaczego IPv6?</h2>
-        <p>IPv4 oferuje tylko około 4 miliardów adresów, co okazało się niewystarczające w obliczu rosnącej liczby urządzeń podłączonych do internetu. IPv6 oferuje ogromną przestrzeń adresową, umożliwiając przypisanie unikalnego adresu do każdego urządzenia w sieci.</p>
+        <p>IPv4 oferuje tylko około 4 miliardów adresów, co okazało się niewystarczające w obliczu rosnącej liczby urządzeń podłączonych do internetu. Wiele nowych technologii, takich jak Internet Rzeczy (IoT), 5G, autonomiczne pojazdy, oraz rozwoju nowych usług wymaga większej przestrzeni adresowej. IPv6 umożliwia tworzenie unikalnych adresów dla każdego urządzenia, zapewniając ich praktycznie nieskończoną liczbę.</p>
     </section>
 
     <section>
         <h2>Struktura adresu IPv6</h2>
-        <p>Adres IPv6 składa się z 128-bitowej liczby, zapisaną w postaci ośmiu grup po cztery cyfry szesnastkowe (np. <code>2001:0db8:85a3:0000:0000:8a2e:0370:7334</code>). Dzieli się na dwie części: część sieciową i część hosta.</p>
+        <p>Adres IPv6 składa się z 128 bitów, zapisanych w postaci ośmiu grup po cztery cyfry szesnastkowe, oddzielonych dwukropkami. Na przykład: <code>2001:0db8:85a3:0000:0000:8a2e:0370:7334</code>. Każda grupa reprezentuje 16 bitów. Adresy IPv6 są znacznie dłuższe i bardziej skomplikowane w porównaniu do adresów IPv4, co pozwala na przypisanie unikalnego adresu każdemu urządzeniu w sieci globalnej.</p>
+
+        <h3>Podział adresu IPv6</h3>
+        <p>Adres IPv6 jest podzielony na dwie główne części:</p>
+        <ul>
+            <li><strong>Część sieciowa</strong> - pierwsze 64 bity adresu są używane do identyfikacji sieci (np. adresy routerów). Pozostałe 64 bity są używane do identyfikacji urządzeń w tej sieci.</li>
+            <li><strong>Część hosta</strong> - ostatnie 64 bity są przeznaczone do adresowania urządzeń w ramach danej sieci. Każde urządzenie podłączone do sieci posiada unikalny identyfikator w tej części adresu.</li>
+        </ul>
+
+        <p>IPv6 umożliwia więc wygodne i wydajne przypisywanie adresów w dużych sieciach i w systemach o dużej skali, takich jak sieci mobilne czy Internet Rzeczy.</p>
+    </section>
+
+    <section>
+        <h2>Notacja skrócona</h2>
+        <p>Aby uprościć zapis adresów IPv6, stosuje się notację skróconą:</p>
+        <ul>
+            <li>Jeśli ciąg zer występuje w adresie, można go skrócić do podwójnego dwukropka (<code>::</code>). Przykład: <code>2001:0db8::8a2e:0370:7334</code> zamiast <code>2001:0db8:0000:0000:8a2e:0370:7334</code>.</li>
+            <li>Wszystkie zera w grupie szesnastkowej mogą zostać usunięte, np. <code>2001:0db8:85a3:0000:0000:8a2e:0370:7334</code> można zapisać jako <code>2001:db8:85a3::8a2e:370:7334</code>.</li>
+        </ul>
+        <p>Warto pamiętać, że skrócony zapis nie zmienia wartości adresu, jest jedynie wygodną metodą uproszczenia notacji.</p>
+    </section>
+
+    <section>
+        <h2>Rodzaje adresów IPv6</h2>
+        <p>Adresy IPv6 dzielą się na kilka typów w zależności od ich zastosowania:</p>
+        <ul>
+            <li><strong>Adresy unicast</strong> - reprezentują pojedynczy host w sieci. Każdy unicastowy adres IPv6 jest przypisany do jednego urządzenia.</li>
+            <li><strong>Adresy multicast</strong> - służą do przesyłania danych do grupy odbiorców. Zamiast wysyłać dane do konkretnego hosta, dane są wysyłane do grupy urządzeń.</li>
+            <li><strong>Adresy anycast</strong> - przypisane do wielu urządzeń, ale dane są przesyłane do najbliższego (z punktu widzenia routingu) odbiorcy.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Routowanie w IPv6</h2>
+        <p>Routowanie w IPv6 jest bardziej efektywne niż w IPv4, dzięki większej przestrzeni adresowej oraz prostszej strukturze. IPv6 eliminuje konieczność stosowania mechanizmów takich jak NAT (Network Address Translation), które były szeroko stosowane w IPv4 w celu zarządzania ograniczoną liczbą adresów. IPv6 wspiera także dynamiczne i hierarchiczne routowanie, co przyczynia się do lepszego skalowania sieci.</p>
     </section>
 
     <section>
         <h2>Przykłady zastosowań IPv6</h2>
         <ul>
-            <li>Adresowanie urządzeń w Internecie rzeczy (IoT).</li>
-            <li>Lepsza obsługa sieci mobilnych.</li>
-            <li>Efektywniejsze trasowanie pakietów.</li>
+            <li><strong>Internet rzeczy (IoT)</strong> - IPv6 pozwala na przypisanie unikalnych adresów do milionów urządzeń podłączonych do internetu, takich jak czujniki, kamery czy urządzenia domowe.</li>
+            <li><strong>Sieci mobilne</strong> - IPv6 pozwala na efektywne zarządzanie adresami w sieciach mobilnych, co jest istotne w kontekście rozwoju 5G.</li>
+            <li><strong>Autonomiczne pojazdy</strong> - IPv6 umożliwia komunikację między pojazdami oraz infrastrukturą drogową, zapewniając wymaganą liczbę adresów dla każdego urządzenia w systemie.</li>
         </ul>
     </section>
 
